@@ -6,11 +6,11 @@
 
 #header
 {
-	background: #ccc;
+	background-color: aqua;
 	padding: 20px;
 }
 
-#header h1 { margin: 0; }
+#header h1 { margin: 0; font-family: fantasy;}
 
 #navigation
 {
@@ -39,6 +39,7 @@
 	color: #fff;
 	text-decoration: none;
 	border-right: 1px solid #fff;
+    background-color: beige
 }
 
 #navigation li a:hover { background: #383; }
@@ -58,6 +59,7 @@
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
 	opacity: 0.83;
+    background-color: beige
 }
 
 #edito h2
@@ -65,6 +67,7 @@
 	color: #000;
 	font-size: 160%;
 	margin: 0 0 .5em;
+ 
 }
 
 #news
@@ -83,6 +86,7 @@
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
 	opacity: 0.83;
+    background-color: beige
 }
 
 #footer
